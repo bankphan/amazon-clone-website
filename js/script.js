@@ -35,5 +35,5 @@ for (const item of srcollContainer) {
     item.addEventListener('wheel', (evt)=>{
         evt.preventDefault();
         item.scrollLeft += evt.deltaY;
-    }
-}
+    })
+};
